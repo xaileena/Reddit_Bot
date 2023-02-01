@@ -1,0 +1,7 @@
+import pickle
+
+dictionary = {'CANDIDATE': ['Boole Ian', 'Alex Thonny', 'Elsa Ifstatement', 'Dee Buh-Ger'], 'VERBACTION': ['reply', 'text', 'write back', 'talk', 'respond'], 'INSULT': ['nasty', 'dumb', 'silly', 'goofy', 'mean', 'stinky', 'smelly'], 'MEANVERB': ['suffer', 'leave', 'go away', 'lose', 'go elsewhere', 'seek elsewhere', 'drop out'], 'COMPLIMENT': ['amazing', 'beautiful', 'the best', 'smart', 'godlike', 'the greatest of all time', 'cute', 'intelligent'], 'SOCIALNOUN': ['buddies', 'pals', 'partners', 'friends', 'lab partners', 'jocks', 'athletes'], 'UNIVERSITYNAME': ['McGill', 'Brown University', 'UCLA', 'MIT', 'Harvard', 'Stanford', 'Yale'], 'NUMBER' : ['twenty', 'fifty', 'hundred', 'two hundred', 'five hundred', 'sixty'], 'GRADE':['first', 'second', 'third', 'fifth', 'ninth', 'eleventh', 'tenth', 'preschool'], 'SOCIALMEDIA':['Instagram', 'Snapchat', 'TikTok', 'Facebook', 'Twitter', 'Whatsapp', 'Discord', 'MyCourses'], 'PRESENTVERB':['think', 'believe', 'know', 'vouch', 'promise', 'swear'], 'ADJECTIVE': ['cool', 'awesome', 'nice', 'respectful', 'amazing', 'intelligent', 'open-minded'], 'MONSTER' : ['gremlin', 'witch', 'troll', 'monster', 'demon', 'devil'], 'VERB' : ['vote', 'choose', 'believe in', 'pick', 'follow', 'worship'], 'VERBING': ['lying', 'convincing', 'brainwashing', 'bribing', 'hiding something', 'telling the truth']}
+
+f = open("word_dict.pkl", "wb")
+pickle.dump(dictionary, f)
+f.close()
