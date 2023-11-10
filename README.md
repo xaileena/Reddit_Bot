@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project ##
 
-[![Product Name Screen Shot][product-screenshot]](images/strawberryjambot.png)
+![Alt text](images/strawberryjambot.png)
 
 The creation of the reddit bot was part of an assignment in my `COMP202 - Foundations of Programming` class. The assignment allowed the students to learn about APIs. The reddit API was used in Python through the `praw` library. 
 
@@ -13,15 +13,15 @@ The randomly generated comments were inspired by the game madlib. In the madlib 
 
 User StrawberryJambot has posted over 100 times. The bot was ran as a daemon for a few hours.
 
-### context ###
+## context ##
 
 There is an election being held for the executive council of the CSSMU. The current president is named Boole Ian, and they are facing against this list of contenders: Alex Thonny, Elsa Ifstatement, and Dee Buh-Ger. 
 
 
-### Built With
+## Built With ##
 
-* [![Python][Python]][https://www.python.org/]
-* [![Reddit][Reddit API]][https://www.reddit.com/dev/api/]
+* Python
+* Reddit API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -30,6 +30,7 @@ There is an election being held for the executive council of the CSSMU. The curr
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Docstrings for each function were provided. If you want to run it as a daemon, you must first connect your bot and create your own praw.ini with your bot information. This following link will give you access to create an app ` https: //www.reddit.com/prefs/apps`. 
+Docstrings for each function were provided. If you want to run it as a daemon, you must first connect your bot and create your own praw.ini with your bot information. 
+This following link will give you access to create an app ` https: //www.reddit.com/prefs/apps`. 
 
 - Please be mindful of which subreddit you will be bombarding!
