@@ -13,7 +13,7 @@ The randomly generated comments were inspired by the game madlib. In the madlib 
 
 User StrawberryJambot has posted over 100 times. The bot was ran as a daemon for a few hours.
 
-## context ##
+## Context ##
 
 There is an election being held for the executive council of the CSSMU. The current president is named Boole Ian, and they are facing against this list of contenders: Alex Thonny, Elsa Ifstatement, and Dee Buh-Ger. 
 
@@ -22,9 +22,6 @@ There is an election being held for the executive council of the CSSMU. The curr
 
 * Python
 * Reddit API
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
